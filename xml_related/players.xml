@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Sports information: NBA and Premier League
+This XML document contains information about professional 
+Basketball players and football clubs. Many of the players and
+football clubs are in the National Basketball Association (NBA) league
+and Premier League. This information is accurate as of 4th January 2025 
+and from:
+https://www.nba.com/players
+and https://www.premierleague.com/tables-->
+<games>
+    <basketball>
+        <player number="5" teamabbreviation="NYK">
+           <name>Precious Achiuwa</name>
+           <team>New York Knicks</team>
+           <lastattended>Memphis</lastattended>
+           <country>Nigeria</country>
+            <height>6'8</height>
+        </player>
+        <player number="13" teamabbreviation="MIA">
+            <name>Bam Adebayo</name>
+            <team>Miami Heat</team>
+            <lastattended>Kentucky</lastattended>
+            <country>United States of America</country>
+            <height>6'9</height>
+        </player>
+        <player number="12" teamabbreviation="LAC">
+            <name>Cam Christie</name>
+            <team>LA Clippers</team>
+            <lastattended>Minnesota</lastattended>
+            <country>United States of America</country>
+            <height>6'6</height>
+        </player>
+        <player number="12" teamabbreviation="LAL">
+            <name>Max Christie</name>
+            <team>Los Angeles Lakers</team>
+            <lastattended>Michigan State</lastattended>
+            <country>United States of America</country>
+            <height>6'5</height>
+        </player>
+        <player number="8" teamabbreviation="MIA">
+            <name>Josh Christopher</name>
+            <team>Miami Heat</team>
+            <lastattended>Arizona State</lastattended>
+            <country>United States of America</country>
+            <height>6'4</height>
+        </player>
+        <player number="33" teamabbreviation="BKN">
+            <name>Nic Claxton</name>
+            <team>Brooklyn Nets</team>
+            <lastattended>Georgia</lastattended>
+            <country>United States of America</country>
+            <height>6'11</height>
+        </player>
+        <player number="1" teamabbreviation="WAS">
+            <name>Johnny Davis</name>
+            <team>Washington Wizards</team>
+            <lastattended>Wisconsin</lastattended>
+            <country>United States of America</country>
+            <height>6'4</height>
+        </player>
+        <player number="24" teamabbreviation="TOR">
+            <name>Bruno Fernado</name>
+            <team>Toronto Raptors</team>
+            <lastattended>Maryland</lastattended>
+            <country>Angola</country>
+            <height>6'9</height>
+        </player>
+        <player number="20" teamabbreviation="MIL">
+            <name>AJ Green</name>
+            <team>Milwaukee Bucks</team>
+            <lastattended>Northern Iowa</lastattended>
+            <country>United States of America</country>
+            <height>6'4</height>
+        </player>   
+    <!--  A list of some NBA teams-->
+        <nbaTeams>
+            <team>Denver Nuggets (DEN)</team>
+            <team>Houston Rockets (HOU)</team>
+            <team>New York Knicks (NYK) </team>
+            <team>Miami Heat (MIA)</team>
+            <team>Toronto Raptors (TOR)</team>
+            <team>Memphis Grizzlies (MEM)</team>
+            <team>Phoenix Suns (PHX)</team>
+            <team>Minnesota Timberwolves (MIN)</team>
+            <team>Atlanta Hawks (ATL)</team>
+            <team>Cleveland Cavaliers (CLE)</team>
+            <team>New Orleans Pelicans (NOP)</team>
+            <team>Golden State Warriors (GSW)</team>
+            <team>Milwaukee Bucks (MIL)</team>
+            <team>Orlando Magic (ORL)</team>
+            <team>Portland Trail Blazers (POR)</team>
+            <team>Los Angeles Lakers (LAL)</team>
+        </nbaTeams>     
+    </basketball>
+ <!--   Football (Soccer) related information-->
+    <football>
+        <club points="45">
+            <name>Liverpool</name>
+            <played>18</played>
+            <won>14</won>
+            <drawn>3</drawn>
+            <lost>1</lost>
+        </club>
+        <club points="39">
+            <name>Arsenal</name>
+            <played>19</played>
+            <won>11</won>
+            <drawn>6</drawn>
+            <lost>2</lost>
+        </club>
+        <club points="37">
+            <name>Nottingham Forest</name>
+            <played>19</played>
+            <won>11</won>
+            <drawn>4</drawn>
+            <lost>4</lost>
+        </club>
+        <club points="35">
+            <name>Chelsea</name>
+            <played>19</played>
+            <won>10</won>
+            <drawn>5</drawn>
+            <lost>4</lost>
+        </club>
+        <club points="32">
+            <name>Newcastle United</name>
+            <played>19</played>
+            <won>9</won>
+            <drawn>5</drawn>
+            <lost>5</lost>
+        </club>
+        <club points="31">
+            <name>Manchester City</name>
+            <played>19</played>
+            <won>9</won>
+            <drawn>4</drawn>
+            <lost>6</lost>
+        </club>
+    </football>
+    <!-- Names of some Premier Leagues Clubs -->
+    <premierLeague>
+        <name>Liverpool</name>
+        <name>Arsenal</name>
+        <name>Nottingham Forest</name>
+        <name>Chelsea</name>
+        <name>Newcastle United</name>
+        <name>Manchester City</name>
+        <name>Southampton</name>
+        <name>Everton</name>
+        <name>Wolverhampton Wanderers</name>
+        <name>Crystal Palace</name>
+        <name>Leicester City</name>
+        <name>Manchester United</name>
+        <name>West Ham United</name>
+        <name>Aston Villa</name>
+    </premierLeague>
+</games>

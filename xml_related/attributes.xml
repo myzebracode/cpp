@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<countries>
+  <country name="Zimbabwe" location="Africa" population="15000000"/>
+  <country name="Brazil" location="South America" population="214000000"/>
+  <country name="Mongolia" location="Asia" population="4000000"/>
+  <country name="Australia" location="Oceania" population="25000000"/>
+</countries>

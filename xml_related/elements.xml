@@ -1,0 +1,24 @@
+<!--<?xml version="1.0" encoding="UTF-8"?> -->
+<!--Country, continent and population xml document-->
+<countries>
+  <country>
+    <name>Zimbabwe</name>
+    <location>Africa</location>
+    <population>15000000</population>
+  </country>
+  <country>
+    <name>Brazil</name>
+    <location>South America</location>
+    <population>214000000</population>
+  </country>
+  <country>
+    <name>Mongolia</name>
+    <location>Asia</location>
+    <population>4000000</population>
+  </country>
+  <country>
+    <name>Australia</name>
+    <location>Oceania</location>
+    <population>25000000</population>
+  </country>
+</countries>

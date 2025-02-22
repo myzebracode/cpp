@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--VTBA: Virtual Taxi Booking Assistant
+This application allows callers to book a taxi.-->
+<taxiCallApp>
+    <caller id="001" luggage="no">
+       <name>Barry Wills</name>
+        <from>New Lane</from>
+        <to>Modern Tower</to>
+        <numberOfPassengers>3</numberOfPassengers>
+        <departureTime>Now</departureTime>
+        <fare payment="card">18</fare>
+        <phoneNumber>07990002753</phoneNumber>
+        <email/>
+    </caller>
+    <caller id="002" luggage="yes">
+        <name>Vicka Leonards</name>
+        <from>Pop Avenue</from>
+        <to>City Hall</to>
+        <numberOfPasengers>1</numberOfPasengers>
+        <departureTime>11:30am</departureTime>
+        <fare payment="cash">53</fare>
+        <phoneNumber>03139892184</phoneNumber>
+        <email>vl@loenards.org</email>
+    </caller>
+    <caller id="003" luggage="no">
+        <name>Franca Ben</name>
+        <from>Eagle Square</from>
+        <to>>Beach Road</to>
+        <numberOfpassengers>4</numberOfpassengers>
+        <departureTime>10:40am</departureTime>
+        <fare payment="app">85</fare>
+        <phoneNumber>02289864429</phoneNumber>
+        <email>f.b@francab.net</email>
+    </caller>
+    <caller id="004" luggage="yes">
+        <name>Eva Jones</name>
+        <from>Military Park View</from>
+        <to>>Modern Village</to>
+        <numberOfpassengers>3</numberOfpassengers>
+        <departureTime>As soon as possible</departureTime>
+        <fare payment="cash">89.50</fare>
+        <phoneNumber>09687521773</phoneNumber>
+        <email>ej@evajones.com</email>
+    </caller>
+    <caller id="005" luggage="no">
+        <name>Emeka Okoli</name>
+        <from>Golden Gate</from>
+        <to>>Salvation City</to>
+        <numberOfpassengers>1</numberOfpassengers>
+        <departureTime>11:00am</departureTime>
+        <fare payment="card">30</fare>
+        <phoneNumber>08471582361</phoneNumber>
+        <email>e.o@emokoli.net</email>
+    </caller>
+    <caller id="006" luggage="no">
+        <name>Alisa Brown</name>
+        <from>Ocean View</from>
+        <to>>West Avenue Station</to>
+        <numberOfpassengers>4</numberOfpassengers>
+        <departureTime>13:00</departureTime>
+        <fare payment="app">92</fare>
+        <phoneNumber>06628871105</phoneNumber>
+        <email>ab@abrown.org</email>
+    </caller>
+    <roundTrip>
+        <name>Eva Jones</name>
+        <name>Emeka Okoli</name>
+        <name>Alisa Brown</name> 
+    </roundTrip>
+</taxiCallApp>
